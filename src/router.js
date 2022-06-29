@@ -19,10 +19,10 @@ const router = new Router({
           import(/* webpackChunkName: "About" */ "./views/About"),
     },
     {
-      path: "/about1",
-      name: "About1",
+      path: "/customerService",
+      name: "CustomerService",
       component: () =>
-          import(/* webpackChunkName: "About1" */ "./views/About1"),
+          import(/* webpackChunkName: "CustomerService" */ "./views/CustomerService"),
     },
     {
       path: "/about2",
@@ -31,13 +31,13 @@ const router = new Router({
           import(/* webpackChunkName: "About2" */ "./views/About2"),
     },
 
-
     {
-      path: "/customerService",
-      name: "CustomerService",
+      path: "/about1",
+      name: "About1",
       component: () =>
-          import(/* webpackChunkName: "CustomerService" */ "./views/CustomerService"),
+          import(/* webpackChunkName: "About1" */ "./views/About1"),
     },
+
     {
       path: "/contact",
       name: "Contact",

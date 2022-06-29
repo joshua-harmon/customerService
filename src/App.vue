@@ -4,9 +4,9 @@
       <nav>
         <RouterLink to="/">Home</RouterLink> |
         <RouterLink to="/about">About</RouterLink> |
-        <RouterLink to="/about1">About1</RouterLink> |
-        <RouterLink to="/about2">About2</RouterLink> |
         <RouterLink to="/customerService">CustomerService</RouterLink> |
+        <RouterLink to="/about2">About2</RouterLink> |
+        <RouterLink to="/about1">About1</RouterLink> |
         <RouterLink to="/contact">Contact</RouterLink>
       </nav>
     </header>
