@@ -1,5 +1,5 @@
 <template>
-  <section id="customerService">
+  <section id="about1">
   <div class="box">
   <ul id="bookmarks">
   <li><a href="#">support</a>
@@ -86,7 +86,7 @@
 
 <script>
 export default {
-  name: "CustomerService",
+  name: "About1",
 };
 </script>
 
