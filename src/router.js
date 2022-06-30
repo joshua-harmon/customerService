@@ -25,17 +25,17 @@ const router = new Router({
           import(/* webpackChunkName: "CustomerService" */ "./views/CustomerService"),
     },
     {
-      path: "/about2",
-      name: "About2",
+      path: "/systems",
+      name: "Systems",
       component: () =>
-          import(/* webpackChunkName: "About2" */ "./views/About2"),
+          import(/* webpackChunkName: "Systems" */ "./views/Systems"),
     },
 
     {
-      path: "/about1",
-      name: "About1",
+      path: "/linux",
+      name: "Linux",
       component: () =>
-          import(/* webpackChunkName: "About1" */ "./views/About1"),
+          import(/* webpackChunkName: "Linux" */ "./views/Linux"),
     },
 
     {

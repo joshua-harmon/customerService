@@ -1,5 +1,5 @@
 <template>
-  <section id="about1">
+  <section id="linux">
   <div class="box">
   <ul id="bookmarks">
   <li><a href="#">linux</a>
@@ -72,7 +72,7 @@
 
 <script>
 export default {
-  name: "About1",
+  name: "Linux",
 };
 </script>
 
